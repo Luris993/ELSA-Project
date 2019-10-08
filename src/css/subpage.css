@@ -223,19 +223,16 @@ nav ul li a:hover:after {
       .responsive_menu .toggle_btn .visible_btn {
         display: none; }
   #recommendations .recommendations_item .recommendations_gallery {
-    padding: 23px 0 0 0; }
+    padding: 23px 0 0 0;
+    display: flex;
+    flex-direction: column; }
     #recommendations .recommendations_item .recommendations_gallery .recommendations_gallery_row {
+      min-width: 0;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 50px;
-      margin-left: 0; }
-      #recommendations .recommendations_item .recommendations_gallery .recommendations_gallery_row:first-of-type {
-        margin-top: 0; }
+      flex-direction: column;
+      margin: 0; }
       #recommendations .recommendations_item .recommendations_gallery .recommendations_gallery_row .recommendations_gallery_box {
-        width: 130px;
-        height: 130px; }
+        margin: 20px; }
   .background_logo {
     display: none; } }
 
